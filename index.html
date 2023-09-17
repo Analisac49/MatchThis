@@ -11,14 +11,15 @@
         <h1>Match This!</h1>
         <div class="grid-container">
         </div>
-        <p>Score: <span class="score"></span></p>
+        <p>PLAY: <span class="PLAY"></span></p>
         <div class="options">
-            <button onclick="startGame(8)">8 Cards</button>
-            <button onclick="startGame(16)">16 Cards</button>
-            <button onclick="startGame(22)">22 Cards</button>
-            <button onclick="restart()">Restart</button>
+            <button id="btn-8">8 Cards</button>
+            <button id="btn-16">16 Cards</button>
+            <button id="btn-24">24 Cards</button> <!-- Added 24 Cards button -->
+            <button id="btn-restart">Restart</button>
         </div>
-        <div class="cards">
+    </header>
+    <div class="cards" id="cards-container">
             <!-- <div class="card"></div>
             <div class="card"></div>
             <div class="card"></div>
@@ -28,10 +29,8 @@
             <div class="card"></div>
             <div class="card"></div> -->
         </div>
-    </header>
-    <div class="memory-game">
-    </div>
-    <script src="script.js"></script>
-</body>
-</html>
-
+        <div class="memory-game">
+        </div>
+        <script src="script.js"></script>
+    </body>
+    </html> 
