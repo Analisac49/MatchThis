@@ -2,7 +2,7 @@
 const cardsContainer = document.getElementById("cards-container");
 
 // Define the available colors
-const colors = ["aqua", "aquamarine", "crimson", "blue", "dodgerblue", "gold", "greenyellow", "teal"];
+const colors = ["CornflowerBlue", "Teal", "DeepSkyBlue", "DarkSeaGreen", "Plum", "MediumVioletRed", "LightCoral", "LemonChiffon"];
 
 // Initialize game state variables
 let revealedCount = 0; // Count of revealed cards
