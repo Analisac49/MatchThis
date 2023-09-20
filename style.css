@@ -1,0 +1,24 @@
+body {
+    min-height: 100vh;
+    min-width: 100vw; 
+    background-color: #92d1f3;
+    color: rgb(98, 91, 232);
+    text-align: center;
+}
+
+.cards {
+    margin: 48px auto;
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 16px;
+    justify-content: center;
+}
+
+.card {
+    height: 100px;
+    background: rgba(187, 136, 241, 0.647);
+    border: 5px solid rgb(78, 78, 235);
+    cursor: pointer;
+    text-align: center;
+}
