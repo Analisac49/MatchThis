@@ -145,5 +145,5 @@ if (btn8 && btn16 && btn24 && btnRestart) {
 
 // Call startGame with an initial card count like 8 when the page loads
 window.onload = () => {
-    startGame(24);
+    startGame(8);
 };
