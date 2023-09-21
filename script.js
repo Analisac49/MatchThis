@@ -2,7 +2,10 @@
 const cardsContainer = document.getElementById("cards-container");
 
 // Define the available colors
-const colors = ["CornflowerBlue", "Teal", "DeepSkyBlue", "DarkSeaGreen", "Plum", "MediumVioletRed", "LightCoral", "LemonChiffon", "green", "blue", "teal", "orange", "pink", "red"];
+const colors = [
+    "CornflowerBlue", "Teal", "DeepSkyBlue", "DarkSeaGreen", "Plum", "MediumVioletRed",
+    "LightCoral", "LemonChiffon", "Gold", "SlateGray", "Orchid", "Crimson"
+];
 
 // Initialize game state variables
 let revealedCount = 0; // Count of revealed cards
@@ -59,11 +62,6 @@ function buildCard(color) {
             awaitingEndOfMove = false;
             revealedCount += 2;
 
-            // Check if all cards are revealed, display a win message
-            if (revealedCount === cardCount) {
-                alert("You win!");
-            }
-
             return;
         }
 
@@ -112,7 +110,7 @@ function startGame(cardCount) {
 
     // Check if the cardCount is 24 and add more cards if needed
     if (cardCount === 24) {
-        for (let i = 0; i < 8; i++) { // Add 8 more cards for a total of 24 (Had issues getting 24)
+        for (let i = 0; i < 0; i++) { // Add 8 more cards for a total of 24 (Had issues getting 24)
             const extraCard = buildCard(colors[i]);
             cardsContainer.appendChild(extraCard);
         }
@@ -147,5 +145,5 @@ if (btn8 && btn16 && btn24 && btnRestart) {
 
 // Call startGame with an initial card count like 8 when the page loads
 window.onload = () => {
-    startGame(8);
+    startGame(24);
 };
