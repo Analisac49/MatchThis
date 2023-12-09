@@ -1,5 +1,5 @@
 ## Wire Frames
-# ![Wire Frames](/Users/vvampirac/Library/Mobile Documents/com~apple~CloudDocs/USB/GA SEI COURSE/Project 1/Project 1.jpeg.png)
+![Alt text](https://file%252B.vscode-resource.vscode-cdn.net/Users/vvampirac/Library/Mobile%2520Documents/com~apple~CloudDocs/USB/GA%2520SEI%2520COURSE/Project%25201/Project%25201.png?version%253D1702151491349)
 
 # Project Description 
 ## Match This! - Memory Matching Game
@@ -29,14 +29,14 @@ Once all pairs are matched, you win the game!
 
 If you want to start over, click the "Restart" button to reset the game with the same number of cards.
 
-# Have fun playing "Match This!" and enjoy testing your memory skills!
+### Have fun playing "Match This!" and enjoy testing your memory skills!
 
-# Enjoy the game and have a great time challenging your memory!
+### Enjoy the game and have a great time challenging your memory!
 
-# Here is the link to the Game to Play
-# `https://analisac49.github.io/MatchThis/`
+## Here is the link to the Game to Play
+### `https://analisac49.github.io/MatchThis/`
 
-# Here is the link to my Github
-# `https://github.com/Analisac49/MatchThis`
+## Here is the link to my Github
+### `https://github.com/Analisac49/MatchThis`
 
-# For more details on how the game works or how to customize it, check out the code in the provided HTML, CSS, and JavaScript files.
+### For more details on how the game works or how to customize it, check out the code in the provided HTML, CSS, and JavaScript files.
