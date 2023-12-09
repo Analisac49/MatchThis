@@ -1,5 +1,5 @@
 ## Wire Frames
-![Alt text](https://file%252B.vscode-resource.vscode-cdn.net/Users/vvampirac/Library/Mobile%2520Documents/com~apple~CloudDocs/USB/GA%2520SEI%2520COURSE/Project%25201/Project%25201.jpeg.png?version%253D1702150800648)
+![Wire Frames](https://path-to-your-image.jpg)
 
 # Project Description 
 ## Match This! - Memory Matching Game
