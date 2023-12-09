@@ -1,32 +1,33 @@
 ## Wire Frames
-# ![Wire Frames](https://Project1.jpeg.png)
+# ![Wire Frames](/Users/vvampirac/Library/Mobile Documents/com~apple~CloudDocs/USB/GA SEI COURSE/Project 1/Project 1.jpeg.png)
 
 # Project Description 
 ## Match This! - Memory Matching Game
 # Welcome to "Match This!" - a fun memory matching game where you need to match pairs of cards. Test your memory and have a blast!
 
 # How to Play
-# `Choose the Number of Cards`
+Choose the Number of Cards
 
-# `Click on one of the buttons to select the number of cards you want to play with:` 8 Cards, 16 Cards, or 24 Cards.
-# Start Matching`
+Click on one of the buttons to select the number of cards you want to play with:` 8 Cards, 16 Cards, or 24 Cards.
+Start Matching`
 
-# `Click on any card to reveal its color.`
-# Click on another card to reveal its color.
-# Match the Pairs
+Click on any card to reveal its color.
+Click on another card to reveal its color.
 
-# `If the colors of the two revealed cards match, they will stay face up.`
+### Match the Pairs
 
-# `If the colors don't match, they will flip back face down after a brief moment.`
+If the colors of the two revealed cards match, they will stay face up.
 
-## Win the Game
+If the colors don't match, they will flip back face down after a brief moment.
 
-# `Continue revealing and matching cards until you've matched all the pairs.`
-# Once all pairs are matched, you win the game!
+### Win the Game
 
-## Restart the Game
+Continue revealing and matching cards until you've matched all the pairs.
+Once all pairs are matched, you win the game!
 
-# `If you want to start over, click the "Restart" button to reset the game with the same number of cards.`
+### Restart the Game
+
+If you want to start over, click the "Restart" button to reset the game with the same number of cards.
 
 # Have fun playing "Match This!" and enjoy testing your memory skills!
 
