@@ -2,7 +2,7 @@
 const cardsContainer = document.getElementById("cards-container");
 
 // Define the available colors
-const colors = ["CornflowerBlue", "magenta", "DeepSkyBlue", "DarkSeaGreen", "Plum", "MediumVioletRed", "LightCoral", "LemonChiffon"];
+const colors = ["CornflowerBlue", "Teal", "DeepSkyBlue", "DarkSeaGreen", "Plum", "MediumVioletRed", "LightCoral", "LemonChiffon"];
 
 // Initialize game state variables
 let revealedCount = 0; // Count of revealed cards
@@ -60,9 +60,9 @@ function buildCard(color) {
             revealedCount += 2;
 
             // Check if all cards are revealed, display a win message
-            // if (revealedCount === cardCount) {
-            //     alert("You win!");
-            // }
+            if (revealedCount === cardCount) {
+                alert("You win!");
+            }
 
             return;
         }
