@@ -1,47 +1,41 @@
 ## Wire Frames
-> Copy and paste or drag and drop your images here.![IMG_0018](https://media.git.generalassemb.ly/user/50086/files/a6d5bca3-772e-41f3-b9fe-c3c5b3df5a7e)
+![Alt text](https://file%252B.vscode-resource.vscode-cdn.net/Users/vvampirac/Library/Mobile%2520Documents/com~apple~CloudDocs/USB/GA%2520SEI%2520COURSE/Project%25201/Project%25201.jpeg.png?version%253D1702150800648)
 
-## Project Description 
-> A short description of your game.
-"Match This!" is an engaging memory matching game that challenges players to test their recall skills while having fun. In this game, your objective is to uncover pairs of cards with matching symbols. Initially, all cards are face down, and you can flip two cards at a time to reveal their hidden symbols. The challenge lies in remembering the card positions as you uncover them. Successfully matching a pair keeps the cards face up, while mismatches will require a keen memory to remember where those cards are. Your goal is to match all pairs to win the game.
+# Project Description 
+## Match This! - Memory Matching Game
+Welcome to "Match This!" - a fun memory matching game where you need to match pairs of cards. Test your memory and have a blast!
 
-User Stories
-### MVP Goals
-As a player, I want to start a new game with a choice of 6, 12, or 22 cards so that I can adjust the game's difficulty.
+# How to Play
+`Choose the Number of Cards`
 
-There should be three buttons labeled "6 Cards," "12 Cards," and "22 Cards."
-Clicking one of these buttons should start a new game with the selected number of cards.
-As a player, I want rectangular cards with images on them so that the game is more visually appealing.
+`Click on one of the buttons to select the number of cards you want to play with:` 8 Cards, 16 Cards, or 24 Cards.
+Start Matching`
 
-The cards on the game board should be rectangular in shape.
-Each card should display an image (e.g., animals, objects, or symbols).
-The images should be hidden when the game starts.
-As a player, I want to flip two cards at a time to reveal their images so that I can try to match them.
+`Click on any card to reveal its color.`
+Click on another card to reveal its color.
+Match the Pairs
 
-As a player, I should be able to click on any facedown card in the grid.
-When I click on a card, it should flip over to reveal its image.
-I should be able to flip up to two cards at a time.
-As a player, I want to know when I've successfully matched a pair of cards so that I can track my progress.
+`If the colors of the two revealed cards match, they will stay face up.`
 
-When I successfully match a pair of cards, they should remain face up.
-There should be a visual indication that I've matched a pair (e.g., a change in color).
-The matched pairs should be counted, and I should be able to see my progress.
-As a player, I want unmatched cards to flip back over after a short delay so that I can continue playing.
+`If the colors don't match, they will flip back face down after a brief moment.`
 
-As a player, If I flip two cards that don't match, they should automatically flip back face down after a brief delay.
-I should have a chance to see the images on the unmatched cards before they flip back.
-As a player, I want the game to end and receive a congratulatory message when I've successfully matched all the pairs so that I know I've won.
+## Win the Game
 
-When all pairs have been successfully matched, a message should appear congratulating me for winning.
-The game should stop accepting card flips after I've won.
-I should have the option to restart the game or exit.
+`Continue revealing and matching cards until you've matched all the pairs.`
+Once all pairs are matched, you win the game!
 
-### Stretch Goals
-Timer: 
-Add a timer to the game to record the player's completion time. Challenge players to complete the game within a certain time limit.
+## Restart the Game
 
-Animations: 
-Add animations for card flips, matches, and card shuffling to make the game visually appealing.
+`If you want to start over, click the "Restart" button to reset the game with the same number of cards.`
 
-Dynamic Card Grid: 
-Implement a dynamic card grid that adjusts its size based on the number of cards chosen by the player.# MatchThis
+# Have fun playing "Match This!" and enjoy testing your memory skills!
+
+Enjoy the game and have a great time challenging your memory!
+
+# Here is the link to the Game to Play
+`https://analisac49.github.io/MatchThis/`
+
+# Here is the link to my Github
+`https://github.com/Analisac49/MatchThis`
+
+For more details on how the game works or how to customize it, check out the code in the provided HTML, CSS, and JavaScript files.
