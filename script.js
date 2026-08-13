@@ -2,12 +2,17 @@
 const cardsContainer = document.getElementById("cards-container");
 
 // Define the available colors
-const colors = ["CornflowerBlue", "Teal", "DeepSkyBlue", "DarkSeaGreen", "Plum", "MediumVioletRed", "LightCoral", "LemonChiffon"];
+const colors = [
+    "CornflowerBlue", "Teal", "DeepSkyBlue", "DarkSeaGreen",
+    "Plum", "MediumVioletRed", "LightCoral", "LemonChiffon",
+    "Orange", "SlateBlue", "Tomato", "MediumSeaGreen"
+];
 
 // Initialize game state variables
 let revealedCount = 0; // Count of revealed cards
 let activeCard = null; // The currently active card (if any)
 let awaitingEndOfMove = false; // Flag to prevent interactions during card animations
+let cardCount = 0; // FIX: new global variable so buildCard() can access the current game's card count
 
 // Initialize an array to keep track of revealed cards
 const revealedCards = [];
@@ -84,7 +89,10 @@ function buildCard(color) {
 }
 
 // Function to start a new game with a specified number of cards
-function startGame(cardCount) {
+// FIX: renamed parameter from "cardCount" to "count" to avoid clashing with the new global "cardCount"
+function startGame(count) {
+    // FIX: set the global cardCount so buildCard() knows how many cards are in play
+    cardCount = count;
     // Clear existing cards from the container
     cardsContainer.innerHTML = "";
 
@@ -111,12 +119,12 @@ function startGame(cardCount) {
     });
 
     // Check if the cardCount is 24 and add more cards if needed
-    if (cardCount === 24) {
-        for (let i = 0; i < 8; i++) { // Add 8 more cards for a total of 24 (Had issues getting 24)
-            const extraCard = buildCard(colors[i]);
-            cardsContainer.appendChild(extraCard);
-        }
-    }
+    // if (cardCount === 24) {
+       // for (let i = 0; i < 8; i++) { // Add 8 more cards for a total of 24 (Had issues getting 24)
+          //  const extraCard = buildCard(colors[i]);
+           // cardsContainer.appendChild(extraCard);
+       // }
+   // }
 }
 
 // Function to restart the current game
